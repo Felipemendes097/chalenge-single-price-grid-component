@@ -1,0 +1,22 @@
+@media(max-width:750px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "top" "left" "right";
+        grid-template-rows: 1fr;
+        margin: 14px;
+    }
+
+    .top .content .title{
+        font-size: 18px;
+    }
+
+    .top .content .subtitle{
+        font-size: 12px;
+    }
+
+    .bottom-left .text-p{
+        font-size: 14px;
+        padding-top: 8px;
+    }
+}
